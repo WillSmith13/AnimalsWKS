@@ -2,15 +2,20 @@ package edu.saintjoe.cs.wills.animals;
 
 public class AnimalTester {
 
-	public static void main(String[] args) {
-		Dog C = new Dog();
-		Dog Taco = new Chihuahua ();
-		Cat Garfield = new Cat();
-		
-		System.out.println(C.makeNoise());
-		System.out.println(Taco.makeNoise());
-		System.out.println(Garfield.makeNoise());
-
-	}
+	
+public static void main(String[] args) { 
+	//Demonstration of various constructors 
+	// This instantiation calls the default 
+	Animal myPet = new Animal();
+	
+	// This one uses the one parameter constructor 
+	Animal myLocalPet = new Animal(23);
+	
+	
+	
+	
+	System.out.println("My aniaml has" + myPet.location + "as its location");
+	System.out.println("My animal has" + myLocalPet.location + "as its location");
+}
 
 }
