@@ -11,11 +11,14 @@ public static void main(String[] args) {
 	// This one uses the one parameter constructor 
 	Animal myLocalPet = new Animal(23);
 	
+	Animal myZoo = new Animal();
 	
 	
 	
 	System.out.println("My aniaml has" + myPet.location + "as its location");
-	System.out.println("My animal has" + myLocalPet.location + "as its location");
+	System.out.println("My animal has" + myLocalPet.weight + "as its weight");
+	System.out.println("My animal has" + myZoo.picture + "as its picture");
 }
+
 
 }
