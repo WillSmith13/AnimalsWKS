@@ -17,9 +17,9 @@ public class Animal {
 		this.picture = "No picture"; 	
 	}
 
-	public Animal(String startingLocation) { 
-		this.location = startingLocation;
-	}
+	//public Animal(String startingLocation) { 
+		//this.location = startingLocation;
+	//}
 	
 	public Animal(String species) {
 		this.species = species;
