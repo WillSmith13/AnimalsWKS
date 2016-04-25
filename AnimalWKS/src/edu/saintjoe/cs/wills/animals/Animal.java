@@ -5,26 +5,28 @@ public class Animal {
 	String picture;
 	String location;
 	int weight; 
-	String species;
-
+	int age;
 	/*......*/
 	
 	// Not we have 6 constructors, each one has a different signature
 	// Even through we didn't write this before it was there by default 
 	public Animal() {
-		//This is a constructor
+		//This is a constructor #1
 		this.location = "Nowhere";
 		this.picture = "No picture"; 	
 	}
-
+	 
+	//#2
 	//public Animal(String startingLocation) { 
 		//this.location = startingLocation;
 	//}
 	
-	public Animal(String species) {
-		this.species = species;
+	//#3
+	public Animal(int weight, int age) {
+		this.age = age;
 	}
 	
+	//#4
 	public Animal(int startingweight) {
 		// Legal but pointless 
 		this.weight = startingweight;
@@ -32,6 +34,7 @@ public class Animal {
 	
 	//Add a two-String parameter here
 	
+	//#5
 	public Animal(String startLocation, String startPicture, int startWeight) {
 		this.weight = startWeight;
 		this.location = startLocation;
@@ -39,10 +42,12 @@ public class Animal {
 		
 	}
 	
+	//#6
 	public Animal(int firstParm, String secondParm) {
 		//pointless
 	}
 	
+	//#7
 	public Animal(String firstParm, int secondParm) {
 		// Do nothing just for fun 
 	}

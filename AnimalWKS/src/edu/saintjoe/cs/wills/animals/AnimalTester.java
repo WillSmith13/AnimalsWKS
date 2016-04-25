@@ -12,13 +12,13 @@ public static void main(String[] args) {
 	Animal myLocalPet = new Animal(23);
 	
 	Animal myZoo = new Animal();
-	Animal mySpecies = new Animal("here");
+	Animal myAge = new Animal();
 	
 	
 	System.out.println("My aniaml has" + myPet.location + "as its location");
 	System.out.println("My animal has" + myLocalPet.weight + "as its weight");
 	System.out.println("My animal has" + myZoo.picture + "as its picture");
-	System.out.println("My animal has" + mySpecies.species + "as its species");
+	System.out.println("My animal has" + myAge.age + "as its species");
 }
 
 
