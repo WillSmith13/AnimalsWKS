@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	Animal myLocalPet = new Animal(23);
 	
 	Animal myZoo = new Animal();
-	Animal mySpecies = new Animal();
+	Animal mySpecies = new Animal("here");
 	
 	
 	System.out.println("My aniaml has" + myPet.location + "as its location");
