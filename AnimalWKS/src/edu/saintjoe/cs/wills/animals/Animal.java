@@ -5,7 +5,8 @@ public class Animal {
 	String picture;
 	String location;
 	int weight; 
-	
+	String species;
+
 	/*......*/
 	
 	// Not we have 6 constructors, each one has a different signature
@@ -18,6 +19,10 @@ public class Animal {
 
 	public Animal(String startingLocation) { 
 		this.location = startingLocation;
+	}
+	
+	public Animal(String species) {
+		this.species = species;
 	}
 	
 	public Animal(int startingweight) {
