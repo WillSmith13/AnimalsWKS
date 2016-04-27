@@ -15,10 +15,12 @@ public static void main(String[] args) {
 	Animal myAge = new Animal();
 	
 	
+	
 	System.out.println("My aniaml has" + myPet.location + "as its location");
 	System.out.println("My animal has" + myLocalPet.weight + "as its weight");
 	System.out.println("My animal has" + myZoo.picture + "as its picture");
-	System.out.println("My animal has" + myAge.age + "as its species");
+	System.out.println("My animal has" + myAge.age + "as its age");
+	
 }
 
 
